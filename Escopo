@@ -1,0 +1,75 @@
+Desenvolver e testar:
+
+• Desenvolver uma classe que implementa uma calculadora de
+operações matemáticas básicas (adição, subtração,
+multiplicação, divisão, fatorial, e potência).
+
+• Em seguida, criar testes unitários para validar o
+funcionamento correto das operações.
+
+
+1. Desenvolvimento da Calculadora
+• Desenvolver uma classe com as funções para realizar as
+seguintes operações:
+• Adição
+• Subtração
+• Multiplicação
+• Divisão (com tratamento para divisão por zero)
+• Fatorial (tratando números negativos)
+• Potência
+
+Testes unitários – TQF 2 (extra)
+
+2. Especificação dos Testes
+• Criar testes unitários para garantir que todas as
+operações funcionem corretamente:
+• Testar operações básicas com números positivos e
+negativos.
+• Testar divisões que resultam em valores decimais e
+tratamento de divisão por zero.
+• Testar a função de fatorial com valores válidos e
+inválidos (como números negativos).
+• Testar a função de potência, tanto para expoentes
+positivos quanto negativos.
+
+Testes unitários – TQF 2 (extra)
+
+3. Escolha da Linguagem
+• Optar por desenvolver o projeto em Python ou
+Java:
+• Python: Usando pytest, eles devem criar funções de
+teste para cada operação da calculadora.
+
+• Java: Usando JUnit, devem criar métodos de teste
+utilizando as anotações @Test, assertEquals,
+assertThrows, etc.
+
+Testes unitários – TQF 2 (extra)
+
+4. Requisitos para os Testes
+• Garantir que cada teste cubra cenários variados (inputs válidos,
+inválidos e limites).
+
+• Usar boas práticas, como uso de fixtures (em Python com
+pytest ou em Java com @BeforeEach).
+
+• No caso de erro (como divisão por zero ou fatorial de número
+negativo), garantir que as exceções corretas sejam lançadas.
+
+Testes unitários – TQF 2 (extra)
+
+• Tempo:
+• No seu tempo;
+• Qualidade
+• Cobrir todos os cenários relevantes e se aplicar corretamente o
+tratamento de erros (exceções);
+• Legibilidade e organização do código, incluindo nomes de
+funções/métodos e estrutura do projeto;
+• A funcionalidade correta da calculadora e a utilização adequada dos
+testes unitários.
+
+• Forma:
+• Escolher entre criar em Python (usando pytest) ou em Java (usando
+JUnit);
+• Entregar o projeto completo via forms;
+• Individual, dupla ou trio (e já tá bom demais!).
