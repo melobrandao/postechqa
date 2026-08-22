@@ -5,6 +5,7 @@ Projeto de calculadora com implementações e testes unitários em Go e Python.
 ## Go
 
 ```bash
+cd golang
 go test -v
 ```
 
